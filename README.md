@@ -1,27 +1,43 @@
-# 🚀 JavaScript Online Runner with Python
+# 🧠 Practice Repository — JavaScript & Python
 
-A simple yet powerful platform for executing JavaScript code online using Flask and Node.js
+Welcome to the **practice_js** repository!  
+This is a collection of hands-on coding exercises using **JavaScript** and **Python**, designed to help reinforce core concepts and improve problem-solving skills.
 
-## ✨ Key Features
+---
 
-- ✅ Server-side JavaScript execution
-- ✅ Full ES6+ support
-- ✅ console.log output display
-- ✅ Runtime error handling
-- ✅ Simple and intuitive UI
-- ✅ Unicode and Persian character support
-- ✅ Timeout protection (10 seconds)
+## 📂 Project Structure
 
-## 🛠️ System Requirements
+This repo contains:
+- ✅ JavaScript exercises and mini projects (DOM, functions, events, etc.)
+- ✅ Python practice scripts for logic building and automation
+- ✅ HTML/CSS files for UI-based JS projects
+- ✅ `screenshots/` folder for visual previews of some projects
 
-- Python 3.7+
-- Node.js 14+
-- Flask
-- Windows/Linux/macOS
+---
 
-## 🏃‍♂️ Setup Instructions
+## 🎯 Objectives
 
-1. First clone the repository:
+- Master fundamental programming concepts
+- Practice DOM manipulation and event handling in JavaScript
+- Work with Python for scripting and basic problem-solving
+- Prepare for coding interviews and real-world challenges
+
+---
+
+## 🖼 Screenshots
+
+Below is an example of one of the projects in action:
+
+<p align="center">
+  <img src="screenshots.png" alt="Project Screenshot" width="600"/>
+</p>
+
+> Replace `example.png` with your actual screenshot filename if different.
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Clone the Repo
 ```bash
-git clone https://github.com/your-username/js-python-runner.git
-cd js-python-runner
+git clone https://github.com/YALDAKHOSHPEY/practice_js.git
