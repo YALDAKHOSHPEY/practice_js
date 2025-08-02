@@ -29,10 +29,8 @@ This repo contains:
 Below is an example of one of the projects in action:
 
 <p align="center">
-  <img src="screenshots.png" alt="Project Screenshot" width="600"/>
+  <img src="screenshot/screenshot.png" alt="Project Screenshot" width="600"/>
 </p>
-
-> Replace `example.png` with your actual screenshot filename if different.
 
 ---
 
@@ -41,3 +39,6 @@ Below is an example of one of the projects in action:
 ### 🔧 Clone the Repo
 ```bash
 git clone https://github.com/YALDAKHOSHPEY/practice_js.git
+```
+
+---
