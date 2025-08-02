@@ -42,3 +42,50 @@ git clone https://github.com/YALDAKHOSHPEY/practice_js.git
 ```
 
 ---
+💻 Run & Test
+
+Open .html files directly in browser or with Live Server
+
+Use browser DevTools to test JS-only files
+
+Run Python scripts via terminal or Python IDE
+
+
+
+---
+
+🛠 Tools & Technologies
+
+JavaScript (ES6+)
+
+Python 3
+
+HTML / CSS
+
+Browser DevTools
+
+VS Code / Live Server (recommended)
+
+
+
+---
+
+🙋‍♀️ Author
+
+Yalda Khoshpey
+
+---
+
+🤝 Contributions
+
+Pull requests, ideas, and feedback are welcome!
+Feel free to fork the repo, modify files, or create your own versions of the challenges.
+
+
+---
+
+📃 License
+
+This project is open-source and available under the MIT License.
+
+---
