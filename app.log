@@ -1,0 +1,15 @@
+2025-08-02 19:03:07,340 - WARNING -  * Debugger is active!
+2025-08-02 19:03:07,343 - INFO -  * Debugger PIN: 627-456-973
+2025-08-02 19:10:16,272 - INFO - 127.0.0.1 - - [02/Aug/2025 19:10:16] "GET / HTTP/1.1" 200 -
+2025-08-02 19:10:16,504 - INFO - 127.0.0.1 - - [02/Aug/2025 19:10:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-02 19:10:19,738 - INFO -  * Detected change in 'C:\\Users\\saya  system\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\app.py', reloading
+2025-08-02 19:10:19,750 - INFO - 127.0.0.1 - - [02/Aug/2025 19:10:19] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-02 19:10:19,751 - INFO -  * Detected change in 'C:\\Users\\saya  system\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+2025-08-02 19:10:19,753 - INFO -  * Detected change in 'C:\\Users\\saya  system\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\serving.py', reloading
+2025-08-02 19:10:20,207 - WARNING -  * Debugger is active!
+2025-08-02 19:10:20,210 - INFO -  * Debugger PIN: 627-456-973
+2025-08-02 19:10:21,692 - INFO - 127.0.0.1 - - [02/Aug/2025 19:10:21] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-02 19:10:22,036 - INFO - 127.0.0.1 - - [02/Aug/2025 19:10:22] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-02 19:10:58,984 - INFO -  * Detected change in 'E:\\practice_js\\app.py', reloading
+2025-08-02 19:10:58,993 - INFO -  * Detected change in 'E:\\practice_js\\app.py', reloading
+2025-08-02 19:10:58,993 - INFO -  * Detected change in 'E:\\practice_js\\app.py', reloading

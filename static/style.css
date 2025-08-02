@@ -1,0 +1,86 @@
+body {
+    font-family: 'Vazirmatn', Tahoma, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#editor {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    resize: vertical;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+}
+
+#run-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#run-btn:hover {
+    background-color: #45a049;
+}
+
+.output-container {
+    margin-top: 20px;
+}
+
+.output-container h3 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+pre {
+    white-space: pre-wrap;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    min-height: 50px;
+}
+
+.output-pending {
+    color: #2196F3;
+    border-left: 4px solid #2196F3;
+}
+
+.output-success {
+    color: #4CAF50;
+    border-left: 4px solid #4CAF50;
+}
+
+.output-error {
+    color: #f44336;
+    border-left: 4px solid #f44336;
+}

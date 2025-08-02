@@ -1,0 +1,28 @@
+2025-08-02 19:27:51,886 - WARNING -  * Debugger is active!
+2025-08-02 19:27:51,893 - INFO -  * Debugger PIN: 627-456-973
+2025-08-02 19:31:36,699 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.203.227:5000
+2025-08-02 19:31:36,699 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-02 19:31:36,706 - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-02 19:31:36,950 - WARNING -  * Debugger is active!
+2025-08-02 19:31:36,966 - INFO -  * Debugger PIN: 627-456-973
+2025-08-02 19:31:51,069 - INFO - 127.0.0.1 - - [02/Aug/2025 19:31:51] "GET / HTTP/1.1" 200 -
+2025-08-02 19:31:57,145 - INFO - 127.0.0.1 - - [02/Aug/2025 19:31:57] "POST /run HTTP/1.1" 200 -
+2025-08-02 19:32:37,619 - INFO - 127.0.0.1 - - [02/Aug/2025 19:32:37] "POST /run HTTP/1.1" 200 -
+2025-08-02 19:34:15,084 - INFO -  * Detected change in 'E:\\practice_js\\app.py', reloading
+2025-08-02 19:34:15,092 - INFO -  * Detected change in 'E:\\practice_js\\app.py', reloading
+2025-08-02 19:34:15,093 - INFO -  * Detected change in 'E:\\practice_js\\app.py', reloading
+2025-08-02 19:34:15,095 - INFO -  * Detected change in 'E:\\practice_js\\app.py', reloading
+2025-08-02 19:34:15,897 - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-02 19:41:10,323 - WARNING -  * Debugger is active!
+2025-08-02 19:41:10,327 - INFO -  * Debugger PIN: 627-456-973
+2025-08-02 19:41:17,668 - INFO - 127.0.0.1 - - [02/Aug/2025 19:41:17] "GET / HTTP/1.1" 200 -
+2025-08-02 19:41:23,823 - INFO - 127.0.0.1 - - [02/Aug/2025 19:41:23] "POST /run HTTP/1.1" 200 -
+2025-08-02 19:42:25,369 - INFO - 127.0.0.1 - - [02/Aug/2025 19:42:25] "POST /run HTTP/1.1" 200 -
+2025-08-02 19:42:57,614 - INFO - 127.0.0.1 - - [02/Aug/2025 19:42:57] "GET / HTTP/1.1" 200 -
+2025-08-02 19:43:02,864 - INFO - 127.0.0.1 - - [02/Aug/2025 19:43:02] "GET / HTTP/1.1" 200 -
+2025-08-02 19:43:08,203 - INFO - 127.0.0.1 - - [02/Aug/2025 19:43:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-02 19:43:52,759 - INFO - 127.0.0.1 - - [02/Aug/2025 19:43:52] "GET / HTTP/1.1" 200 -
+2025-08-02 19:43:58,774 - INFO - 127.0.0.1 - - [02/Aug/2025 19:43:58] "POST /run HTTP/1.1" 200 -

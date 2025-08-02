@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css">
+    <style>
+        .code-editor {
+            height: 400px;
+            font-family: 'Fira Code', monospace;
+        }
+        .output-container {
+            min-height: 200px;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white">
+                <h1 class="h4 mb-0">🛠JavaScript</h1>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <textarea id="editor" class="form-control code-editor">console.log("سلام دنیا! 👋");
+// محاسبه سری فیبوناچی
+function fibonacci(n) {
+  return n <= 1 ? n : fibonacci(n - 1) + fibonacci(n - 2);
+}
+fibonacci(10);</textarea>
+                </div>
+                <button id="run-btn" class="btn btn-success w-100 py-2">
+                    <i class="bi bi-play-fill"></i> اجرای کد
+                </button>
+                <div class="mt-4">
+                    <h3 class="h5"><i class="bi bi-terminal"></i> نتیجه اجرا:</h3>
+                    <pre id="output" class="p-3 bg-dark text-white rounded output-container"></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script>
+        document.getElementById('run-btn').addEventListener('click', async () => {
+            const editor = document.getElementById('editor');
+            const output = document.getElementById('output');
+            const runBtn = document.getElementById('run-btn');
+            
+            // تغییر وضعیت دکمه
+            runBtn.disabled = true;
+            runBtn.innerHTML = '<span class="spinner-border spinner-border-sm"></span> در حال اجرا...';
+            
+            output.innerHTML = '<div class="text-info">در حال اجرای کد...</div>';
+            
+            try {
+                const response = await fetch('/run', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ code: editor.value })
+                });
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    output.innerHTML = `<div class="text-danger">${data.error}</div>`;
+                } else {
+                    output.textContent = data.output;
+                    hljs.highlightElement(output);
+                }
+            } catch (error) {
+                output.innerHTML = `<div class="text-danger">خطا در ارتباط با سرور: ${error.message}</div>`;
+            } finally {
+                // بازگرداندن وضعیت دکمه
+                runBtn.disabled = false;
+                runBtn.innerHTML = '<i class="bi bi-play-fill"></i> اجرای کد';
+            }
+        });
+    </script>
+</body>
+</html>
